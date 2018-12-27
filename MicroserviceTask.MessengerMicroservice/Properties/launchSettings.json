@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:50001"
+      "applicationUrl": "http://localhost:50003"
     }
   },
   "profiles": {
@@ -14,7 +14,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "MicroserviceTask.UI": {
+    "MicroserviceTask.MessagingMicroservice": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

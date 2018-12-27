@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  microservicetask.apigateway:
+    image: ${DOCKER_REGISTRY-}microservicetaskapigateway
+    build:
+      context: .
+      dockerfile: MicroserviceTask.ApiGateway/Dockerfile     
+  microservicetask.messengermicroservice:
+    image: ${DOCKER_REGISTRY-}microservicetaskmessengermicroservice
+    build:
+      context: .
+      dockerfile: MicroserviceTask.MessengerMicroservice/Dockerfile
+  microservicetask.ui:
+    image: ${DOCKER_REGISTRY-}microservicetaskui
+    build:
+      context: .
+      dockerfile: MicroserviceTask.UI/Dockerfile

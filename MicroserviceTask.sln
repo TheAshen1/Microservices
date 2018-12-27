@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceTask.UI", "MicroserviceTask.UI\MicroserviceTask.UI.csproj", "{481FCF50-1C3C-4A71-A5AB-FBDB0A02F81A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTask.UI", "MicroserviceTask.UI\MicroserviceTask.UI.csproj", "{481FCF50-1C3C-4A71-A5AB-FBDB0A02F81A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTask.ApiGateway", "MicroserviceTask.ApiGateway\MicroserviceTask.ApiGateway.csproj", "{24029F11-B585-453B-970D-E7DBA14F9C17}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4B718D2D-B98C-4916-9F24-61A7072BCE8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTask.MessengerMicroservice", "MicroserviceTask.MessengerMicroservice\MicroserviceTask.MessengerMicroservice.csproj", "{FF35F39B-9AE3-4555-8CE8-71103CD613D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{481FCF50-1C3C-4A71-A5AB-FBDB0A02F81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{481FCF50-1C3C-4A71-A5AB-FBDB0A02F81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{481FCF50-1C3C-4A71-A5AB-FBDB0A02F81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24029F11-B585-453B-970D-E7DBA14F9C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24029F11-B585-453B-970D-E7DBA14F9C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24029F11-B585-453B-970D-E7DBA14F9C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24029F11-B585-453B-970D-E7DBA14F9C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B718D2D-B98C-4916-9F24-61A7072BCE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B718D2D-B98C-4916-9F24-61A7072BCE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B718D2D-B98C-4916-9F24-61A7072BCE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B718D2D-B98C-4916-9F24-61A7072BCE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF35F39B-9AE3-4555-8CE8-71103CD613D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF35F39B-9AE3-4555-8CE8-71103CD613D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF35F39B-9AE3-4555-8CE8-71103CD613D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF35F39B-9AE3-4555-8CE8-71103CD613D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,6 +3,20 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Send a message</h1>
+    <div>
+        <div class="form-group">
+            <label for="messageReciepients">Reciepients</label>
+            <input type="text" class="form-control" id="messageReciepients" placeholder="reciepient@gmail.com;...">
+        </div>
+        <div class="form-group">
+            <label for="messageSubject">Message subject</label>
+            <input type="text" class="form-control" id="messageSubject" placeholder="subject">
+        </div>
+        <div class="form-group">
+            <label for="messageBody">Message body</label>
+            <textarea class="form-control" id="messageBody" rows="3"></textarea>
+        </div>
+        <div id="sendMessageBtn" class="btn btn-primary">Send</div>
+    </div>
 </div>
